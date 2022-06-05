@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Employee curd test","creating  new employee record ","SUCCESS","2022-06-05T20:52:36.341+01:00[Europe/London]","0.0","3.77"
+"Employee curd test","getting single employee record ","FAILURE","2022-06-05T20:52:40.138+01:00[Europe/London]","0.0","0.91"
+"Employee curd test","update employee record","FAILURE","2022-06-05T20:52:41.065+01:00[Europe/London]","0.0","0.95"
+"Employee curd test","delete employee record","FAILURE","2022-06-05T20:52:42.021+01:00[Europe/London]","0.0","0.74"
