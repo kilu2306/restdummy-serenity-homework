@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="End to end Testing for employee" skipped="0" tests="4" time="18.35" timestamp="2022-06-20T15:27:31.774+01:00[Europe/London]"><testcase name="I should be able to creat employee record successfully"/><testcase name="I should be able to get single record by id"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: kiya43763&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path name doesn't match.
+Expected: kiya43763
+  Actual: null
+</failure><system-err>1 expectation failed.
+JSON path name doesn't match.
+Expected: kiya43763
+  Actual: null
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)&#13;
+com.restapiexample.cucumber.steps.employeeStepDef.iShouldBeAbleToGetSucessfullyEmployeeRecord(employeeStepDef.java:55)&#13;
+✽.Then I should be able to get sucessfully employee record(emoployee.feature:11)&#13;
+</system-err></testcase><testcase name="I should be able to update employee by id"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.cucumber.steps.employeeStepDef.iShouldBeAbleToUpdateSuccessfully(employeeStepDef.java:70)&#13;
+✽.Then I should be able to update successfully(emoployee.feature:16)&#13;
+</system-err></testcase><testcase name="I should be able to delet employee by id"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.cucumber.steps.employeeStepDef.iShouldBeAbleToDeleteEmployeeSuccesfully(employeeStepDef.java:80)&#13;
+✽.Then I should be able to delete Employee succesfully(emoployee.feature:20)&#13;
+</system-err></testcase></testsuite>

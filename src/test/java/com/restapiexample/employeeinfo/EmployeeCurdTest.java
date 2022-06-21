@@ -1,5 +1,6 @@
 package com.restapiexample.employeeinfo;
 
+import com.restapiexample.model.employeeinfo.EmployeeSteps;
 import com.restapiexample.testbase.TestBase;
 import com.restapiexample.utils.TestUtils;
 import io.restassured.response.ValidatableResponse;

@@ -1,4 +1,4 @@
-package com.restapiexample.employeeinfo;
+package com.restapiexample.model.employeeinfo;
 
 import com.restapiexample.constant.EndPoints;
 import com.restapiexample.model.EmployeePojo;
